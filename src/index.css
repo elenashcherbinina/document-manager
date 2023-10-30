@@ -15,10 +15,7 @@ code {
   box-shadow: none;
 }
 
-input[type='date']:in-range::-webkit-datetime-edit-year-field,
-input[type='date']:in-range::-webkit-datetime-edit-month-field,
-input[type='date']:in-range::-webkit-datetime-edit-day-field,
-input[type='date']:in-range::-webkit-datetime-edit-text {
+input[type='date']:not(:focus) {
   color: transparent;
 }
 
